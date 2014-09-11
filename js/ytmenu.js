@@ -32,12 +32,13 @@ var YTMenu = (function() {
 					el.className = el.className.replace(/\bdr-menu-open\b/,'');
 					return false;
 				}
-			}, false );
+			}, false);
 
-		} );
+		});
 
 	}
 
 	init();
-
+ 
 })();
+
